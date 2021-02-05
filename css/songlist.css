@@ -1,0 +1,36 @@
+.song {
+	color: inherit;
+	text-decoration: none;
+	margin: 5pt;
+}
+
+.deckabutton {
+	background-color: DodgerBlue;
+	color: #fff;
+	cursor: pointer;
+	border: 0pt;
+}
+
+.deckbbutton {
+	background-color: green;
+	color: #fff;
+	cursor: pointer;
+	border: 0pt;
+}
+
+th.playlistTableHeader {
+	cursor: pointer;
+}
+
+.PlaylistButton {
+	width: 49.7%;
+	border: 0pt;
+	border-radius: 1px;
+	background-color: #ddd;
+	margin-bottom: 2pt;
+}
+
+red {
+	color: red;
+	text-transform: uppercase;
+}

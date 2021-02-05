@@ -1,0 +1,100 @@
+.fa,.fab,.fad,.fal,.far,.fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1
+}
+.fa-2x {
+    font-size: 2em
+}
+
+.fa,.far,.fab,.fas {
+	font-family: "Font Awesome 5 Pro"
+}
+
+.fa,.fas {
+	font-weight: 900
+}
+
+.fab,.far {
+	font-weight: 400
+}
+
+.fab {
+	font-family: "Font Awesome 5 Brands"
+}
+
+.fab {
+	font-size: 21pt;
+	padding: 4pt;
+	border-radius: 20%;
+}
+
+.fa-envelope:before {
+    content: "\f0e0"
+}
+
+.fa-facebook-square:before {
+	content: "\f082"
+}
+
+.fa-facebook-square:hover {
+	color: #3B5998;
+	background-color: white;
+}
+
+.fa-twitter:hover {
+	color: #55ACEE;
+	background-color: white;
+}
+
+.fa-linkedin:before {
+	content: "\f08c"
+}
+
+.fa-linkedin-in:before {
+	content: "\f0e1"
+}
+
+.fa-linkedin-square:hover {
+	color: rgb(46,114,171);
+	background-color: white;
+}
+
+.fa-instagram:before {
+	content: "\f16d"
+}
+
+.fa-instagram:hover {
+	background: #f09433;
+	background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+	background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+	background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+	color:white;
+}
+
+.fa-github:before {
+	content: "\f09b"
+}
+
+.fa-github:hover {
+	color: rgb(80,43,122);
+	background-color: white;
+}
+
+.weather-icon {
+	font-size: 125px;
+}
+
+.fa-sun {
+	color: orange;
+}
+
+.fa-moon {
+	color: white;
+	background-color: black;
+}

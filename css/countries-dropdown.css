@@ -1,0 +1,128 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+[data-icon]:after {
+  font-family: "entypo";
+  content: attr(data-icon);
+  speak: none;
+}
+input#brand-filter {
+  width: 196px;
+  height: 36px;
+  padding: 0;
+  line-height: 32px;
+  background: #56e2c9;
+  color: #fff;
+  border: 0;
+  font: bold 14px/20px "Arial", sans-serif;
+  text-indent: 12px;
+  outline: none;
+  -webkit-appearance: textfield;
+}
+input#brand-filter::-webkit-input-placeholder {
+  color: transparent;
+}
+input#brand-filter::-moz-input-placeholder {
+  color: transparent;
+}
+input#brand-filter:-ms-input-placeholder {
+  color: transparent;
+}
+input#brand-filter::-webkit-search-cancel-button, input#brand-filter::-webkit-search-results-button, input#brand-filter::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+  width: 32px;
+  height: 32px;
+  line-height: 30px;
+  color: white;
+  text-align: left;
+  cursor: pointer;
+}
+input#brand-filter::-webkit-search-cancel-button:before, input#brand-filter::-webkit-search-results-button:before, input#brand-filter::-webkit-search-results-decoration:before {
+  position: absolute;
+  content: 'x';
+  font-style: normal;
+}
+input#brand-filter:invalid {
+  border: 0 !important;
+}
+input#brand-filter:invalid::-webkit-search-cancel-button:before, input#brand-filter:invalid::-webkit-search-results-button:before, input#brand-filter:invalid::-webkit-search-results-decoration:before {
+  font-family: "entypo";
+  content: attr(data-icon);
+}
+input#brand-filter + label {
+  position: absolute;
+  margin: 8px 0 0 -30px;
+  cursor: pointer;
+}
+input#brand-filter + label:before {
+  position: absolute;
+  content: 'Choisir';
+  left: -152px;
+  width: 180px;
+  color: #fff;
+  font: bold 14px/20px "Arial", sans-serif;
+  text-align: left;
+}
+input#brand-filter + label:after {
+  margin-left: 7px;
+  color: #fff;
+  content: '\25BE';
+}
+
+input#brand-filter:focus::-webkit-input-placeholder {
+  font-weight: normal;
+  color: #fff;
+}
+input#brand-filter:focus::-moz-input-placeholder {
+  font-weight: normal;
+  color: #fff;
+}
+input#brand-filter:focus:-ms-input-placeholder {
+  font-weight: normal;
+  color: #fff;
+}
+input#brand-filter:focus:invalid + label:before {
+  display: none;
+}
+input#brand-filter:focus:invalid + label:after {
+  margin-left: 4px;
+  content: attr(data-icon);
+}
+input#brand-filter:valid + label {
+  display: none;
+}
+
+.ui-autocomplete {
+  width: 190px;
+  max-height: 180px;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: #2ec5aa;
+  color: #fff;
+  border-width: 4px 4px 4px 0;
+  border-style: solid;
+  border-color: #2ec5aa;
+}
+.ui-autocomplete ul {
+  list-style: none;
+}
+.ui-autocomplete li {
+  height: 36px;
+  margin: 0;
+  font: bold 14px/36px Arial, Helvetica, sans-serif;
+  white-space: nowrap;
+}
+.ui-autocomplete li:hover {
+  -moz-transition: background 0.3s ease-in;
+  -o-transition: background 0.3s ease-in;
+  -webkit-transition: background 0.3s ease-in;
+  transition: background 0.3s ease-in;
+  background: #3ed1b7;
+}
+
+.ui-autocomplete li a {
+  display: block;
+  padding: 0 12px;
+  cursor: pointer;
+}
